@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+.main{
+    display : flex;
+    flex-direction: row;
+}
+.ri-add-circle-fill {
+    font-size: 20vh;
+    margin-right: 40px;
+    color: #FF69B4;
+    
+    transition: color 0.2s ease, font-size 0.2s ease; 
+}
+
+.ri-add-circle-fill:hover {
+    color: #ac1862;
+    font-size: 21vh;
+    
+}
+
+.ri-file-list-fill{
+    font-size : 20vh;
+    color: #b35ef0;
+    margin-right:40px;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+.ri-file-list-fill:hover{
+    color: #590b90;
+    font-size: 21vh;
+    
+}
+a{
+    text-decoration: none;
+}
+.generate-pdf-button,.view-invoices,.purchase-order{
+    background-color: transparent;
+    border: none;
+}
+.ri-money-dollar-circle-fill{
+    font-size : 20vh;
+    color: #9acd32;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+.ri-money-dollar-circle-fill:hover{
+    color : #fff2de;
+    font-size: 21vh;
+}
+
+

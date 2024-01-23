@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+.main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.welcome-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+
+.email-div-input{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    height: 48px;
+    background-color: #ffffff;
+    border : none;
+    border-radius: .375rem;
+    cursor: text;
+    padding-left : 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+}
+.submit-button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+    width: 363px;
+    height: 48px;
+    background-color: #ffffff;
+    border : none;
+    border-radius: .375rem;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #b35ef0;
+ 
+}
+
+.submit-button:hover {
+    background-color: #8538a0;
+}
+a{
+    margin-left: 5px;
+    text-decoration: none;
+    color:#b35ef0
+}
+.signup-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: normal; 
+    
+
+}
+
+.logo-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.chainbills-logo{
+    height : 70px;
+    
+}
+.bname-div-input{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    height: 48px;
+    background-color: #ffffff;
+    border : none;
+    border-radius: .375rem;
+    cursor: pointer;
+    padding-left : 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    cursor: text;
+
+}
+.baddress-div-input{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    height: 48px;
+    background-color: #ffffff;
+    border : none;
+    border-radius: .375rem;
+    cursor: pointer;
+    padding-left : 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    cursor: text;
+
+}
+.number-div-input{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    height: 48px;
+    background-color: #ffffff;
+    border : none;
+    border-radius: .375rem;
+    cursor: pointer;
+    padding-left : 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    cursor: text;
+
+}
+
+.td-div-input{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    height: 48px;
+    background-color: #ffffff;
+    border : none;
+    border-radius: .375rem;
+    cursor: pointer;
+    padding-left : 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left : 10px;
+
+}
+.transaction-div{
+    display : flex;
+    flex-direction: row;
+}
+.left{
+    display : flex;
+    flex-direction: column;
+}
+.right{
+    display : flex;
+    flex-direction: column;
+}
+
+
+
+

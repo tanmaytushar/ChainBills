@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="homepage.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Homepage</title>
+    <link rel="icon" href="/static/logogrey.png" type="image/x-icon">
+    
+
+    
+</head>
+<body>
+    <div class = "main">
+        <div class ="left">
+            <button class ="generate-pdf-button" onclick="handleGeneratePDF()">
+                
+                <i class="ri-add-circle-fill"></i>
+                
+            </button>
+            
+            
+        </div>
+        <div>
+            <button class="view-invoices" onclick="handleviewInvoices()">
+                <i class="ri-file-list-fill"></i>
+            </button>
+            
+            
+        </div>
+        <div>
+            <button class="purchase-order" onclick="handlepurchaseOrder()">
+                <i class="ri-money-dollar-circle-fill"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

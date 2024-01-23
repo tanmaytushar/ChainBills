@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.invoice-upper-container{
+    display : flex;
+    flex-direction : row;
+    margin-top : 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.serial-number-class{
+    margin-right : 10px;
+}
+.invoice-name-class{
+    margin-right : 10px;
+}
+.view-pdf-button {
+    background: transparent; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+
+
