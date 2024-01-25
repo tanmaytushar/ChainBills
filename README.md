@@ -16,9 +16,7 @@ To run the program, open localhost:3000 in your web browser after starting the s
 ## Dependencies
 - Node.js
 - Express.js
-- Blockchain
-- React
-- Web3.js
+- Ethers.js
 - Solidity
 
 
