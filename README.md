@@ -10,8 +10,8 @@ To install all dependencies, run the following command:
 
 ## Usage
 To run the program, open localhost:3000 in your web browser after starting the server. Use the following command to start the server:
-    npm start
-    open http://localhost:3000/
+-  npm start
+-  open http://localhost:3000/
 
 
 ## Dependencies
