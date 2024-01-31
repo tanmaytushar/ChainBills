@@ -106,7 +106,7 @@ button{
 span{
         color: rgb(142, 142, 160); 
         font-size: 12px; 
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
 }
 
 
